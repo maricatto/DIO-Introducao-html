@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio Prático_ HTML_DIO</title>
+</head>
+<body>
+    <h1>Projeto prático curso HTML - DIO</h1>
+    <hr />
+    <h2>Índice</h2>
+    <ul>
+        <li><a href="#origem">Origem do HTML</a></li>
+        <li><a href="#oque">O que é o HTML</a></li>
+        <li><a href="#como-funciona">Como Funciona o HTML?</a></li>
+        <li><a href="#tags-html">O que são tags e elementos HTML</a>
+           <ol><a href="#principais-tags-html">Principais tags</a></ol>
+        </li>
+        <li><a href="#resposta-html">É possivel fazer um site profissional só com HTML?</a>
+            <ol><a href="#oque-css">CSS</a></ol>
+            <ol><a href="#oque-javascript">JavaScript</a></ol>
+        </li>
+        <li><a href="#estrutura">Estrutura básica de um documento HTML</a></li>
+        <li><a href="#faltantes">Utilizando as tags faltantes(para entregar o projeto)</a>
+            <ol><a href="#mark">Tag &lt;Mark&gt;</a></ol>  
+        </li>
+    </ul>
+    <h3>Origem do HTML</h3>
+    <p id="origem">
+     O HTML foi inventado por Tim Berners-Lee, um físico do centro de pesquisas CERN, na Suíça. Ele surgiu com a ideia de um sistema de hipertexto na internet.
+     Hipertexto significa um texto que possui referências (links) para outros textos que podem ser acessados imediatamente. Ele publicou a primeira versão do HTML em 1991, consistindo em 18 tags. Desde então, cada versão do HTML vem com novas tags e atributos (modificadores de tags).
+     Devido a rápida ascensão e popularidade, o HTML é agora considerado um padrão oficial da web.
+     <span style="font-weight: 400"> em <u><mark><a href="#mark">2014</a></mark></u>. Diversas novas tags semânticas foram adicionadas que revelam o significado do seu próprio conteúdo, como &nbsp;</span><b><i>&lt;article&gt; , &lt;header&gt;, &lt;footer&gt;.</i></b>
+     <blockquote>Para que o nome das tags "article", "header" e "footer" foi necessário utiliza os sinais de maior e menor
+                 conforme você pode verificar <a href="http://www.clem.ufba.br/tuts/html/c06.htm#:~:text=Entidades%20de%20Caractere,-Alguns%20caracteres%20têm&text=Para%20exibir%20um%20sinal%20de%20menor%20do%20que%20em%20um,é%20mais%20fácil%20de%20lembrar." target="_blank">neste site</a> com este e outros exemplos.
+     </blockquote>
+    </p>
+    <h3>O que é o HTML</h3>
+    <p id="oque">
+        HTML significa <blockquote>HyperText Markup Language — Linguagem de Marcação de Hipertexto —</blockquote> 
+        Isso quer dizer que ele permite a construção de websites e a inserção de novos conteúdos, como imagens e vídeos, por meio dos hipertextos.
+
+Os hipertextos são a junção de vários elementos — palavras, vídeos e conteúdos —, que, quando conectados, estabelecem uma rede de dados que permite a comunicação, o armazenamento e o compartilhamento de informações.
+Por exemplo, ao visitar um website, você encontra diversas informações com formatações diferentes, como parágrafos, bullets e fontes distintas. Pois então, essa estruturação é realizada por meio do HTML.
+    </p>
+    <h3>Como Funciona o HTML?</h3>
+    <p id="como-funciona">
+    Através de um documento HTML, ou seja, um documento com a extensão .html ou .htm., o navegador faz a leitura do arquivo e renderiza o seu conteúdo para que o usuário final possa visualizá-lo. Os arquivos .html podem ser visualizados em qualquer navegador (como Google Chrome, Safari, ou Mozilla Firefox).
+
+Geralmente um site é composto por diversas páginas HTML, como por exemplo: um website que contenha três páginas (uma homepage, uma página de contato e uma página de produtos) receberá ao menos três documentos .html distintos, sendo uma para cada página do website.
+
+O código pode ser escrito através de qualquer editor de texto, como o próprio bloco de notas. Cada página consiste em uma série de tags (também chamados de elementos) que podem ser considerados os blocos de construção das páginas. Portanto, esses blocos são a maneira com a qual o HTML faz a marcação dos conteúdos, criando a hierarquia e a estrutura do mesmo, dividido entre seções, parágrafos, cabeçalhos, e outros.
+    </p>
+    <h3>O que são tags e elementos HTML</h3>
+    <p id="tags-html">
+        Através de qualquer editor de texto, como o Sublime Text, o NotePad++ ou até mesmo o bloco de notas, é possível criar um documento com a extensão .html que será renderizado pelos navegadores.
+        Conforme explicado anteriormente, este documento consiste em uma série de tags. As tags são códigos que definem toda a estrutura da página, tais como o seu tamanho, a fonte da letra, as cores, as quebras de linha e etc. A maioria dos elementos do documento HTML são compostos por uma estrutura de abertura e uma de fachamento, como &lt;tag&gt; e &lt;/tag&gt;. Há também tags de estrutura única, como a  tag &lt;br/&gt; que realiza uma quebra de linha.
+        Digamos que você queria escrever um paragrafo, chamamos então a tag &lt;p&gt;, escrevemos o paragrafo e finalmente fechamos a tag com &lt;/p&gt;:
+        <blockquote><p><small>Meu primeiro paragrafo.</small></p></blockquote>
+        Dessa forma, ao salvar o arquivo com a extensão .html e abri-lo em um navegador, você verá o parágrafo escrito na tela do navegador.  
+    </p>
+    <h4>Principais tags HTML</h4>
+    <p id="principais-tags-html">
+        <ul>
+            <li><strong>&lt;head&gt;</strong> – local para declarar todas informações, como título e metadados da sua página;</li>
+            <li><strong>&lt;title&gt;</strong> – define o título;</li>
+            <li><strong>&lt;body&gt;</strong> – local para declarar todos os elementos que irão compor o corpo da página;</li>
+            <li><strong>&lt;h1&gt;,&lt;h2&gt;,&lt;h3&gt;,&lt;h4&gt;,&lt;h5 &gt;e</strong>&nbsp;<strong>&lt;h6&gt;</strong> – Tags para definir um título e subtítulos, variando de 1 a 6, sendo h1 o título mais importante e h6 o de menor importância;</li>
+            <li><strong>&lt;p&gt;</strong> – Tag para definir um parágrafo.+;</li>
+            <li><strong>&lt;a&gt;</strong> – <a href="https://www.homehost.com.br/blog/criar-sites/links-html/" target="_blank" rel="noopener noreferrer">Tag de link,</a> junto ao atributo href=”” é responsável pela principal característica da web;</li>
+            <li><strong>&lt;header&gt;</strong> – define um cabeçalho;</li>
+            <li><strong>&lt;section&gt;</strong> – define uma seção;</li>
+            <li><strong>&lt;article&gt;</strong> – define um artigo;</li>
+            <li><strong>&lt;div&gt;</strong> – define uma divisão;</li>
+            <li><strong>&lt;footer&gt;</strong> – define um rodapé;</li>
+            <li><strong>&lt;nav&gt;</strong> – define uma área de navegação (como menus);</li>
+            <li><strong>&lt;table&gt; </strong>– define uma tabela;</li>
+            <li><strong>&lt;ol&gt;</strong> – define uma lista ordenada;</li>
+            <li><strong>&lt;ul&gt;</strong> – define uma lista não ordenada;</li>
+            <li><strong>&lt;li&gt;</strong> – define o item de uma lista;</li>
+            <li><strong>&lt;form&gt;</strong> – define um formulário;</li>
+            <li><strong>&lt;input&gt;</strong> – define os campos do formulário;</li>
+            <li><strong>&lt;textarea&gt;</strong> – define uma área para o usuário digitar um texto;</li>
+            <li><strong>&lt;button&gt;</strong> – define um botão;</li>
+            <li><strong><img>&lt;img&gt; </strong>– permite <a href="https://www.homehost.com.br/blog/criar-sites/html-img/" target="_blank" rel="noopener">inserir uma imagem</a> no seu documento.</li>
+            </ul>
+    </p>
+    <h3>É possivel fazer um site profissional só com HTML?</h3>
+    <p id="resposta-html">
+        Não, pois o HTML servirá para marcar todos os elementos da nossa página. Ele funciona como se fosse o esqueleto de uma página. Porém, sozinho o HTML é limitado a essa função, mesmo em sua versão mais atual.
+        Sendo assim, podemos definir que uma página web é composta por três camadas. O HTML formará a primeira camada que apresenta o conteúdo ao usuário. O CSS formará segunda camada que dará forma aos elementos. Finalmente, o Javascript formará a terceira camada que adicionará comportamentos dinâmicos à página.
+    </p>
+    <h4>CSS</h4>
+    <p id="oque-css">
+        Para poder dar forma ao nosso documento, é necessário trabalhar com o estilo em cascata, o CSS.  Com isso podemos estilizar todos nossos elementos, aplicando espaçamentos, cores, posicionamentos, tamanho de fontes, famílias de fontes, bordas e outros efeitos visuais que dão forma ao documento. Durante muito tempo, o estilo era aplicado diretamente na tag html. Hoje em dia, é possível utilizar um espaço dentro do seu documento html, através da tag <style></style> que deve ser declarada dentro do head, onde irá conter todo o CSS. Da mesma forma, pode-se utilizar uma folha de estilos externa, geralmente de extensão .css , o que deixa o código muito mais limpo e organizado. Atualmente, a versão mais recente do CSS é o CSS 3. Podemos considerar que o CSS é o corpo do nosso documento.
+    </p>
+    <h4>JavaScript</h4>
+    <p id="oque-javascript">
+        O JavaScript, diferentemente do HTML e do CSS, é uma linguagem de programação, e em conjunto com esses, ele é capaz de dar vida, gerar movimento ao site. Ele é o que tornará os elementos mais dinâmicos, pois é o JavaScript que permite a execução de scripts na nossa página. Dessa forma, quando o usuário está navegando em uma página e executa uma ação que resulte em um comportamento na página, muito provavelmente será um script que executará esse comportamento. Portanto, o JavaScript pode ser comparado com o movimento do corpo (e do esqueleto) da nossa página.
+    </p>
+    <h5>Estrutura básica de um documento HTML</h5>
+    <p id="estrutura">
+        <pre class="lang:xhtml decode:true ">&lt;!DOCTYPE html&gt;
+            &lt;html&gt;
+                &lt;head&gt;
+                    &lt;title&gt;&lt;/title&gt;
+                    &lt;meta charset="utf-8"/&gt;
+                &lt;/head&gt;
+            
+                &lt;body&gt;
+            
+                &lt;/body&gt;
+            &lt;/html&gt;</pre>
+    </p>
+    <h6>Utilizando as tags faltantes(para entregar o projeto)</h6>
+    <p id="faltantes">
+    <blockquote>
+        This text contains <sub>subscript</sub> text.
+        <br />
+        <br />
+        This text contains <sup>subscript</sup> text.
+        <br>
+        <br>
+        <abbr title="World Health Organization">WHO</abbr> was founded in 1948.
+        <br>
+        <br>
+        My favorite color is <del>blue</del> <ins>red</ins>!
+        <blockquote>
+            The  &lt;font&gt; tag was used in HTML 4 to specify the font face, font size, and color of text.
+            <br> 
+            Not Supported in HTML5.
+        </blockquote>
+    </blockquote>
+    <p id="mark">O elemento &lt;mark&gt; é usado para <mark>destacar</mark> partes do texto</p>
+</p>
+</body>
+</html>
